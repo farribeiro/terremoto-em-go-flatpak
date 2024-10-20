@@ -1,0 +1,12 @@
+[Desktop Entry]
+Name=Eqk
+GenericName=Eqk
+Comment=
+Exec=eqk
+Icon=minetest
+Terminal=true
+PrefersNonDefaultGPU=true
+Type=Application
+Categories=Utilites
+StartupNotify=false
+Keywords=earthquake
