@@ -18,7 +18,6 @@ modules:
     build-commands:
       - make build
       - install -D -m 744 eqk ${FLATPAK_DEST}/bin/eqk.bin
-      - cat eqk.sh
       - install -D -m 744 eqk.sh ${FLATPAK_DEST}/bin/eqk
       - install -D -m 644 com.github.mpinheir.eqk.desktop -t ${FLATPAK_DEST}/share/applications
     sources:
@@ -41,7 +40,6 @@ modules:
             # Executa o comando eqk com o número (substitua pelo comando correto)
             echo "Executando eqk com o número $numero..."
             eqk.bin $numero  # Substitua por um comando real ou altere conforme necessário
-            sleep
           else
             echo "Entrada inválida! Por favor, insira um número válido."
           fi
